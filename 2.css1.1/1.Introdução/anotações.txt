@@ -1,0 +1,123 @@
+        CSS dentro do HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS</title>
+    </head>
+<body>
+    <h1>Minha primeira página CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo saepe ut natus, aliquid doloremque ipsa possimus? 
+        Accusantium suscipit aliquid voluptatibus consectetur magnam modi sint libero placeat omnis, 
+        est inventore debitis.</p>
+    <button>Clique aqui</button>
+</body>
+    <style>
+    h1{
+            color: blue;
+            background-color: turquoise;
+        }
+    p{
+            color: green;
+            font-size: 20px;
+        }
+    button{
+            color: red;
+            background-color: black;
+        }
+    </style>
+</html>
+
+------------------------------------
+            SELETORES CSS
+
+Class ( classes )
+A classe seria como um CEP. Ela serve para identificar vários
+elementos. Ou seja, vários elementos HTML podem usar a
+mesma classe, e conseguimos estilizalos no CSS.
+
+ID ( identificador único)
+Ja o ID seria como seu CPF ou RG. Ele serve para identificar aper
+UM elemento. Ou seja, você só pode usar um ID específico uma
+ovez na sua página HTML.
+#exemplo{
+
+}
+
+* {
+ } /* SELETOR DE TODOS OS ELEMENTOS DA PAGINA */
+
+
+1
+
+styles.css
+/*
+
+
+UNIDADES .DE .MEDIDAS
+
+->. ABSOLUTAS
+px. (pixels)
+in.(inches/polegadas)
+cm . /mm. (centimetro / milímetro)
+
+->. RELATIVAS
+calcula o tamanho relativo ao elemento pai
+VW.(view width) 1vw e 1% da largura da janela do navegador
+vh . (view.height) 1vh e 1 da altura da janela.do navegador
+em- e uma unidade relativa ao elemento pai
+rem e uma .unidade relativa.ao elemento raiz
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,10
+
+h1 {
+color:
+font-size: 64px;
+font-weight: lighter;
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+text-shadow: 10px 10px 10px
+FF0000
+
+red
+
+color: Oblue;
+font-size: 30px;
+font-weight: 100;
+font-family: 'Roboto', sans-serif;
+font-style: italic;
+line-height: 50px;
+letter-spacing: 10px;
+word-spacing: 40px;
+text-align: justify;
+text-transform: capitalize;
+text-decoration: underline;
+
+.box
+width: 50px;
+height: 50px
+background: #FF1493
+
+margin-top: 20px;
+margin-bottom: 30px;
+margin-right: 10px;
+margin-left: 5px;
+
+margin: 10px 50px 30px 5px;
+12h .15h 18h 21h */
+
+/ *.
+
+box
+width: 100px;
+height: 100px;
+1#FF1493
+background:
+padding: 20px;
+border: 10px solid #0000FF
+
+/ *. BOX.SIZING */

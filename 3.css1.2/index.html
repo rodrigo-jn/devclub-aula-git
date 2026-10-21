@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Car Sales | Elite Motors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <main class="container">
+        <header>
+            <div class="logo">
+                <h1>ELITE<span>MOTORS</span></h1>
+            </div>
+            <nav>
+                <a href="#" class="active">Estoque</a>
+                <a href="#">Serviços</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </nav>
+        </header>
+
+        <section class="filters-bar">
+            <div class="filter-group">
+                <input type="text" id="filter-brand" placeholder="Marca...">
+            </div>
+            <div class="filter-group">
+                <input type="text" id="filter-model" placeholder="Modelo...">
+            </div>
+            <div class="filter-group">
+                <select id="filter-year">
+                    <option value="">Ano (Mín.)</option>
+                    <option value="2020">2020+</option>
+                    <option value="2021">2021+</option>
+                    <option value="2022">2022+</option>
+                    <option value="2023">2023+</option>
+                    <option value="2024">2024+</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <input type="number" id="filter-km" placeholder="Km (Máx.)">
+            </div>
+        </section>
+
+        <section id="car-grid" class="car-grid">
+            <!-- Cars will be rendered here by JS -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

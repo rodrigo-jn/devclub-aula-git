@@ -1,0 +1,46 @@
+/* SELETOR PELA TAG */ 
+
+/*
+h1 {
+  color: blue;
+  background-color: turquoise;
+}
+p {
+  color: green;
+  font-size: 20px;
+}
+button {
+  color: red;
+  background-color: black;
+} 
+
+          SELETOR PELA ID 
+#titulo {
+  color: blue;
+  background-color: turquoise;
+}
+#paragrafo {
+  color: green;
+  font-size: 20px;
+}
+#botao {
+  color: red;
+  background-color: black;
+}
+#outro-botao {
+  color: white;
+  background-color: green;
+} 
+
+          SELETOR PELA CLASSE */
+
+.texto, .botao , p, #botao {
+  color: blue;
+  background-color: turquoise;
+  font-size: 15px;
+  font-weight: bold;
+}
+.botao {
+  color: yellow;
+  background-color: black;
+}
